@@ -2,7 +2,18 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:arxiv.org)",
-      "WebSearch"
+      "WebSearch",
+      "WebFetch(domain:zhuanlan.zhihu.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.tianqi.com)",
+      "mcp__web-search__search",
+      "WebFetch(domain:weather.com)",
+      "WebFetch(domain:www.weather.com.cn)",
+      "mcp__web-search__fetchGithubReadme",
+      "WebFetch(domain:export.arxiv.org)",
+      "Bash(npm init -y)",
+      "Bash(npm install playwright)",
+      "Bash(npx playwright install chromium)"
     ]
   }
 }
